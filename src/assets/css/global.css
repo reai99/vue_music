@@ -1,0 +1,101 @@
+html,#app,body{height: 100vh; margin: 0; padding: 0;}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  
+}
+.main-header{height: 45px;background: #f6f6f6;position: relative;overflow: hidden;z-index: 99;}
+.main-header .search{position: absolute;width: 200px;right: 0;top: 0;height: 36px;}
+.main-header .search .el-icon-search {font-size: 18px; position: absolute; right: 90px;top: 13px;cursor: pointer;}
+.main-header .search .input-search {position: absolute;right: 80px;top: 7px;border-radius: 20px;height: 26px;border: 1px solid #f1f1f1;
+outline: 0;background: #ededed;text-indent: 10px;}
+.main-header .el-icon-arrow-left {position: absolute;top: 13px;font-weight: 600;font-size: 18px;left: 10px;cursor: pointer;}
+
+.main-nav{height: 500px;width: 100%;overflow: hidden;overflow-y: scroll;}
+.main-nav .main-nav-tt{height: 160px;border-bottom: 1px solid #f1f1f1;align-items: center;display: flex;position: relative;}
+.main-nav .main-nav-tt img{height: 100px;width: 100px;float: left;margin-left: 30px;border-radius: 8px;}
+.main-nav-text{padding-left: 40px;}
+.main-nav-text .main-tt-name{height:30px;font-weight: 600;line-height: 30px;}
+.main-nav-text .main-tt-label{font-size: 12px;color: #bebebb;height: 40px;line-height: 40px;}
+.main-nav-text .main-tt-btn .el-button{border-radius: 20px;height: 30px;line-height: 0;padding: 5px 20px;}
+
+
+.el-table .cell{line-height: 16px; font-size: 13px;}
+.el-table .el-table__row{cursor: pointer;}
+.home-header {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 15px;
+  text-indent: 10px;
+}
+
+/* 播放器 */
+.aplayer-controller, .aplayer-controller .aplayer-time{position: static!important;}
+.aplayer{overflow: visible!important;}
+.aplayer-body .aplayer-music{width: 300px;}
+.aplayer-body .aplayer-bar-wrap{position: absolute;top: -2px;width: 100%;left: 0;padding: 0;background-color: red;margin: 0;}
+.aplayer .aplayer-body .aplayer-info{overflow: visible!important;}
+.aplayer-played{background: red!important;top: -1px!important;height: 3px!important;}
+.aplayer .aplayer-thumb{border-color: red!important;background-color: red!important;}
+.aplayer .aplayer-loading-icon{background-color: red!important;}
+.aplayer-body .aplayer-time{position: absolute;margin-bottom: 10px;}
+.aplayer-body .aplayer-pic{width: 48px;height: 48px;margin-top: 9px;margin-left: 9px;border-radius: 4px;position: static;}
+.aplayer-body .aplayer-button.aplayer-play{position: absolute;left: 50%;width: 45px!important;height:  45px!important;margin-left: -22.5px;top: 50%;margin-top: -24.5px;background-color: red;}
+.aplayer-body .aplayer-button.aplayer-pause{width: 45px!important;height:  45px!important;left: 50%;  margin-left: -22.5px;top: 50%;margin-top: -24.5px;background-color: red;}
+.aplayer-pic .aplayer-play .aplayer-icon-play{left: 12px!important;top: 10px!important;width: 25px!important;height: 25px!important;}
+.aplayer-body .aplayer-pic .aplayer-pause .aplayer-icon-pause{left: 10px!important;top: 10px!important;width: 25px!important;height: 25px!important;}
+.aplayer-controller, .aplayer-controller .aplayer-time{position: static!important;}
+.aplayer-body .aplayer-volume-wrap{position: absolute;right: 105px;top: 20px;display: block!important;}
+.aplayer-body .aplayer-volume-wrap button{width: 22px;height: 22px;}
+.aplayer-body .aplayer-icon-mode{right: 82px;height: 22px;width: 22px;top: 20px;position: absolute;}
+
+.aplayer-body .aplayer-volume-bar{height: 86px!important;bottom: 10px!important;z-index: 11!important;}
+.aplayer-body .aplayer-volume{background-color: red!important;}
+.aplayer-body .aplayer-volume-wrap .aplayer-volume-bar-wrap:after{left: -3px;right: 3px;height: 120px;background: #fff;z-index: 10;border-radius: 4px;}
+.aplayer-body .aplayer-volume-bar-wrap{height: 100px!important;}
+.aplayer-controller .aplayer-time .aplayer-icon.aplayer-icon-menu{    display: block!important;position: absolute;right: 15px;height: 26px;width: 26px;top: 18px;}
+.aplayer-list{
+  height: 490px!important;
+  position: absolute;
+  bottom: 74px;
+  background: #fff;
+  right: 0;
+  box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.24) ;
+  width: 320px;
+}
+.aplayer-list ol {height: 490px!important;}
+.aplayer-list ol li .aplayer-list-author{width: 100px;white-space: nowrap;text-overflow:ellipsis;overflow: hidden;}
+.aplayer-list ol li .aplayer-list-title{width: 160px;white-space: nowrap;text-overflow:ellipsis;overflow: hidden;}
+.aplayer .aplayer-body .aplayer-info .aplayer-music .aplayer-title{max-width: 140px;height: 20px;line-height: 20px; display: inline-block;white-space: nowrap;text-overflow:ellipsis;overflow: hidden;}
+.aplayer .aplayer-body .aplayer-info .aplayer-music .aplayer-author{width: 100px;height: 20px;line-height: 20px; display: inline-block;white-space: nowrap;text-overflow:ellipsis;overflow: hidden;}
+.aplayer.aplayer-withlrc .aplayer-body .aplayer-pic{height: 48px!important;width: 48px!important;}
+.aplayer.aplayer-withlrc .aplayer-body .aplayer-info{padding: 0!important;height: 66px!important;}
+.aplayer-lrc{position: fixed!important;width: 100%;right: 175px;top: 20px;font-size: 20px;width: 240px;}
+.aplayer-withlrc .aplayer-body .aplayer-info .aplayer-music{line-height: 58px!important;}
+.aplayer-withlrc .aplayer-body .aplayer-info{text-indent: 5px;}
+.aplayer-list-cur{background: red!important;}
+.aplayer-controller .aplayer-time .aplayer-volume-wrap+.aplayer-icon{ right: 50px!important;}
+
+.music-list .el-submenu__title {
+  height: 45px !important;
+  line-height: 45px !important;
+  font-size:13px;
+}
+
+.el-card__body{padding: 0;height: 100%;}
+.el-card__body img{width: 100%;height: 100%;}
+.el-tabs__nav{margin-left: 20px;}
+.el-tabs__header{background: #f6f6f6;}
+.el-menu-item{height: 48px!important;line-height: 48px;}
+.el-tabs__item:hover{color: red!important;}
+.el-tabs__item.is-active{color: red!important;}
+.el-tabs__active-bar{background: red;}
+.el-table .cell{overflow: hidden;text-overflow: ellipsis;white-space: nowrap!important;}
+.el-pagination.is-background .el-pager li:not(.disabled).active{background-color: red!important;}
+.el-pagination.is-background .el-pager li:not(.disabled):hover{color: red!important;}

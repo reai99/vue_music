@@ -10,16 +10,12 @@ import axios from 'axios'
 // NProgress拦截器 导入
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
-// cookie方法导入
-import cookie from 'vue-cookie'
-
-Vue.prototype.$cookie = cookie
 
 Vue.config.productionTip = false
 // 请求带上cookies
 axios.defaults.withCredentials = true
 // 设置默认地址
-axios.defaults.baseURL = 'http://localhost:3000/'
+axios.defaults.baseURL = 'http://mapi.zreai.com:404/'
 // axios 放入vue原型对象上
 Vue.prototype.$request = axios
 // 请求拦截器添加token，保证拥有获取数据权限 并开启进度条 NProgress.start()
