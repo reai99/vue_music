@@ -10,10 +10,6 @@ import axios from 'axios'
 // NProgress拦截器 导入
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
-// cookie方法导入
-import cookie from 'vue-cookie'
-
-Vue.prototype.$cookie = cookie
 
 Vue.config.productionTip = false
 // 请求带上cookies
