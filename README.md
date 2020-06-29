@@ -12,6 +12,16 @@
 #### 5、最新歌曲包括新歌速递、新碟上架
 #### 6、搜索功能包括历史搜索、热门搜索
 
+### 项目截图
+![Image text](https://raw.githubusercontent.com/reai99/vue_music/master/image/1.png)
+![Image text](https://raw.githubusercontent.com/reai99/vue_music/master/image/2.png)
+![Image text](https://raw.githubusercontent.com/reai99/vue_music/master/image/3.png)
+![Image text](https://raw.githubusercontent.com/reai99/vue_music/master/image/4.png)
+![Image text](https://raw.githubusercontent.com/reai99/vue_music/master/image/5.png)
+![Image text](https://raw.githubusercontent.com/reai99/vue_music/master/image/6.png)
+![Image text](https://raw.githubusercontent.com/reai99/vue_music/master/image/7.png)
+![Image text](https://raw.githubusercontent.com/reai99/vue_music/master/image/8.png)
+
 #### 演示地址：http://music.zreai.com
 
 
